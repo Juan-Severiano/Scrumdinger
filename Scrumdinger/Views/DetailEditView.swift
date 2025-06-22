@@ -9,7 +9,7 @@ import SwiftUI
 
 
 struct DetailEditView: View {
-    @State private var scrum = DailyScrum.emptyScrum
+    @Binding var scrum: DailyScrum
     @State private var attendeeName = ""
     
     var body: some View {
@@ -47,6 +47,7 @@ struct DetailEditView: View {
                     }
                     .disabled(attendeeName.isEmpty)
                 }
+                ThemePicker(selection: $scrum.theme)
             }
         }
     }
@@ -54,5 +55,6 @@ struct DetailEditView: View {
 
 
 #Preview {
-    DetailEditView()
+    @Previewable @State var scrum = DailyScrum.sampleData[0]
+    DetailEditView(scrum: $scrum)
 }
