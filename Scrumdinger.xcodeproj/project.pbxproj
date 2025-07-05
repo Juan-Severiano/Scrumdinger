@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6175EA572E083B7400FDDA22 /* ThemeKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6175EA562E083B7400FDDA22 /* ThemeKit */; };
 		618C4C942DFCBE8A00B9EEBD /* ThemeKit in Frameworks */ = {isa = PBXBuildFile; productRef = 618C4C932DFCBE8A00B9EEBD /* ThemeKit */; };
+		61EB4A362E19D23D004EA169 /* TimerKit in Frameworks */ = {isa = PBXBuildFile; productRef = 61EB4A352E19D23D004EA169 /* TimerKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61EB4A362E19D23D004EA169 /* TimerKit in Frameworks */,
 				618C4C942DFCBE8A00B9EEBD /* ThemeKit in Frameworks */,
 				6175EA572E083B7400FDDA22 /* ThemeKit in Frameworks */,
 			);
@@ -74,6 +76,7 @@
 			packageProductDependencies = (
 				618C4C932DFCBE8A00B9EEBD /* ThemeKit */,
 				6175EA562E083B7400FDDA22 /* ThemeKit */,
+				61EB4A352E19D23D004EA169 /* TimerKit */,
 			);
 			productName = Scrumdinger;
 			productReference = 618C4C822DFCB8EF00B9EEBD /* Scrumdinger.app */;
@@ -105,6 +108,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				6175EA552E083B7400FDDA22 /* XCLocalSwiftPackageReference "ThemeKit" */,
+				61EB4A342E19D23D004EA169 /* XCLocalSwiftPackageReference "../../Downloads/ManagingStateAndLifeCycle/StartingProject/TutorialResources/TimerKit" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 618C4C832DFCB8EF00B9EEBD /* Products */;
@@ -342,6 +346,10 @@
 			isa = XCLocalSwiftPackageReference;
 			relativePath = ThemeKit;
 		};
+		61EB4A342E19D23D004EA169 /* XCLocalSwiftPackageReference "../../Downloads/ManagingStateAndLifeCycle/StartingProject/TutorialResources/TimerKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Downloads/ManagingStateAndLifeCycle/StartingProject/TutorialResources/TimerKit;
+		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -352,6 +360,10 @@
 		618C4C932DFCBE8A00B9EEBD /* ThemeKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = ThemeKit;
+		};
+		61EB4A352E19D23D004EA169 /* TimerKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TimerKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
